@@ -1,0 +1,245 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.servicios {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nosotros {
+  background-color: #4af094;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-navbar {
+  background-color: #4af094;
+}
+
+.menu-navbar a {
+  color: white;
+}
+
+.menu-navbar .link-a {
+  color: black;
+}
+
+.menu-navbar .link-a:hover {
+  color: white;
+}
+
+.menu-navbar .logo-a {
+  color: white;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+# Cartas 
+--------------------------------------------------------------*/
+.carta .icon-nos {
+  float: center;
+  font-size: 50px;
+  text-align: center;
+  color: #4af094;
+}
+
+.card-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*--------------------------------------------------------------
+# Fin Cartas 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Galeria
+--------------------------------------------------------------*/
+.galeria {
+  padding: 40px;
+}
+
+.galeria .carta {
+  padding: 0;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 4px;
+  border: none;
+  transition: 0.15s ease-in-out;
+  box-shadow: 0 8px 15px rgb(100, 100, 100);
+}
+
+.galeria .carta:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.galeria .lightbox img {
+  border-radius: 4px 4px 0 0;
+}
+
+.galeria .caption {
+  padding: 26px 30px;
+  text-align: center;
+}
+
+.galeria .caption h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  color: #4af094;
+}
+
+.galeria .caption h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.galeria .caption p {
+  font-size: 12px;
+  color: black;
+  margin: 0;
+}
+
+.galeria-contenedor h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+.galeria-contenedor p.pag-descripcion {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+}
+
+/*--------------------------------------------------------------
+# Fin Galerias
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #4a74f0;
+  padding: 30px 0;
+  color: white;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+* + #footer .copyright {
+  margin-top: 50px;
+}
+
+#footer .redesSociales {
+  text-align: center;
+}
+
+#footer .redesSociales .siguenos a {
+  color: white;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+a {
+  color: #4af094;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+#footer .social-list {
+  float: center;
+  padding: 10px;
+}
+
+#footer .social-list > * {
+  margin-top: 0;
+}
+
+#footer .social-list a:hover {
+  background: transparent;
+  color: white;
+}
+
+#footer ul.social-list {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#footer ul.social-list > li {
+  display: inline-block;
+}
+
+#footer ul.social-list > * {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#footer ul.social-list a {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+}
+
+#footer ul.social-list a:hover {
+  font-size: 32px;
+  color: #4af094;
+}
+
+@media (min-width: 768px) {
+  #footer ul.social-list {
+    margin-left: -18px;
+    margin-right: -18px;
+  }
+  #footer ul.social-list > * {
+    margin-top: 36px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+#footer-modern .social-list > li {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  #footer-modern .social-list > li {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+* + #footer .social-list {
+  margin-top: -30px;
+}
+
+/*--------------------------------------------------------------
+# Fin Footer
+--------------------------------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */
